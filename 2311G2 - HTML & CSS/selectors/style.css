@@ -1,0 +1,35 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+/* .child{
+    color: royalblue;
+} */
+/* #ch{
+    font-size: 34px;
+}
+p{
+    background-color: aquamarine;
+} */
+
+
+.parent{
+    background-color: aqua;
+}
+
+ul a{
+    background-color: aqua;
+}
+
+
+/* .parent + p{
+    background-color: rosybrown;
+} */
+
+.parent ~ p{
+    background-color: rosybrown;
+}
+
+
