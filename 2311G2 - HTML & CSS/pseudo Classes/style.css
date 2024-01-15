@@ -1,0 +1,50 @@
+a:active{
+    background-color: royalblue;
+}
+a:visited{
+    color: aqua;
+}
+
+li:first-child{
+    background-color: rosybrown;
+    color: royalblue;
+}
+
+
+li:nth-child(4)
+{
+    background-color: tomato;
+}
+
+li:last-child{
+    background-color: orange;
+}
+
+button:disabled
+{
+    background-color: lightcoral;
+    width: 100px;
+    height: 40px;
+}
+
+input{
+    transition: 0.9s linear;
+}
+
+input:focus
+{
+    outline-color: plum;
+    width: 200px;
+}
+
+.btn{
+    transition: 1s linear;
+}
+
+.btn:hover
+{
+    background-color: palevioletred;
+    color: #fff;
+    border: none;
+}
+
