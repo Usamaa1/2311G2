@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.card-container{
+    width: 302px;
+    margin: 20px;
+    border: 1px solid #d8d7d7;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px 2px #eee;
+}
+.img-container{
+    width: 300px;
+    height: 200px;
+}
+.img{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.card-heading{
+    font-size: 22px;
+    margin: 10px 5px;
+}
+.card-description{
+    margin: 10px 5px;
+}
+.card-price{
+    font-size: 18px;
+    display: inline;
+    margin: 10px 90px 10px 0px;
+    padding-left: 5px;
+}
+.card-rating{
+    display: inline;
+    
+}
+.card-rating i{
+    padding-bottom: 10px;
+    color: #FDCC0D;
+}
