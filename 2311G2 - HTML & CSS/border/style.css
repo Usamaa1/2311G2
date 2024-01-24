@@ -1,0 +1,26 @@
+
+.btn{
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: palevioletred;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s linear;
+    text-decoration: none;
+    /* border: 2px solid salmon; */
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: powderblue;
+    box-shadow: 8px 8px 10px rgb(209, 209, 209);
+}
+.box{
+    margin: 20px;
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
