@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.box{
+    width: 100px;
+    height: 40px;
+    background-color: tomato;
+    /* transition: transform 0.5s linear 1.5s; */
+    transition: transform 1.5s cubic-bezier(.2,.87,.94,.25);
+    
+}
+.box:hover{
+    transform: scale(1.4);
+}
