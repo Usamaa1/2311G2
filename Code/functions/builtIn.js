@@ -91,5 +91,107 @@
 // console.log()
 
 
+// **************************************
+// **************************************
+// ********** Array Methods **************
+// **************************************
+// **************************************
+
+
+
+// const nums = [1,2,3,4];
+
+// const a = 1;
+// a = 2;
+// console.log(a)
+
+
+// nums[0] = 8
+
+// console.log(nums)
+
+
+// const nums = [1,2,3,4];
+
+// delete nums[3]
+
+
+// console.log(nums)
+
+// for adding elements in an array
+
+
+// nums.push(56)
+
+
+// nums.unshift(78)
+// console.log(nums)
+
+// for deleting elements in an array
+
+// nums.pop();
+// nums.shift();
+
+// const nums = [1,2,3,4,5,7,8,4];
+
+// console.log(nums)
+
+// console.log(nums.indexOf(4))
+// console.log(nums.lastIndexOf(4))
+
+// console.log(nums.includes(5))
+
+// const city1 = ["Karachi","Lahore","Islamabad","Multan"];
+// const city2 = ["Faislabad","Peshawar","Hyderabad"];
+
+// console.log(city.includes("Lahorfsdae"));
+
+// let allCities = [];
+
+// console.log(allCities.concat(city1,city2));
+
+// const city1 = ["Karachi","Lahore","Islamabad","Multan"];
+// city1.splice(3,0,"London","Seoul","Dhaka")
+// city1.splice(2,2,"London","Seoul","Dhaka")
+
+// const city2 = city1.slice(1,3);
+//city1.splice(2,2)
+
+//console.log(city1);
+// console.log(city2);
+
+
+
+// SPREAD OPERATOR
+
+// const persons = ["Arif", "Ali", "Zahid", "Haris"];
+
+
+// const karachiPersons = persons;
+
+
+// persons[1] = "AMIR"
+
+
+
+// const karachiPersons = [...persons];
+
+
+// persons[1] = "AMIR"
+
+// console.log(...persons)
+
+
+// console.log("Persons array: ",persons)
+// console.log("Karachi persons array: ",karachiPersons)
+
+
+
+
+
+
+
+
+
 
 
