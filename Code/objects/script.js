@@ -43,3 +43,33 @@
     
 // }
 
+
+
+const emps = {
+                firstName: "Haris",
+                lastName: "zahid",
+                birthYear: 1996,
+                job: "Accountant",
+                favColor: ['Magenta','Gray','White'],
+                age: function(currentYear){
+                    return  currentYear - this.birthYear
+                }
+        }
+
+
+const emps1 = {
+                firstName: "Sharif",
+                lastName: "Khan",
+                birthYear: 2000,
+                job: "Accountant",
+                favColor: ['Magenta','Gray','White'],
+                age: function(currentYear){
+                    return  currentYear - this.birthYear
+                }
+}
+
+// console.log(emps.firstName)
+// console.log(lastName)
+
+console.log(emps.age(2024));
+console.log(emps1.age(2024));
