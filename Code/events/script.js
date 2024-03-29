@@ -47,3 +47,37 @@
 
 
 
+// let bgClr = document.getElementById('bgClr');
+
+// document.getElementById('bgClr').addEventListener('mousedown',()=>{
+//     console.log("Mouse Down Event Occurs")
+// })
+
+// document.getElementById('bgClr').addEventListener('mouseup',()=>{
+//     console.log("Mouse Up Event Occurs")
+// })
+// document.getElementById('bgClr').addEventListener('mousemove',(e)=>{
+//     console.log("Mouse Up Event Occurs")
+//     console.log(e)
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
