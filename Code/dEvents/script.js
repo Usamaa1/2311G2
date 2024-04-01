@@ -23,7 +23,7 @@ draw.addEventListener('mousemove',(e)=>{
         console.log("mouse move",e)
         ctx.lineTo(e.clientX, e.clientY);
         ctx.moveTo(e.clientX, e.clientY);
-        ctx.lineWidth = 10;
+        ctx.lineWidth = 5;
         ctx.lineCap = 'round';
         ctx.strokeStyle = 'red'
         ctx.stroke();
